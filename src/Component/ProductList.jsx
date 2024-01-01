@@ -27,7 +27,7 @@ const ProductList = () => {
   );
 
   return (
-    <div className=" w-full  bg-stone-100">
+    <div className=" w-full pt-5 overflow-hidden bg-stone-100">
       <div className=" w-11/12 mx-auto flex flex-col items-center py-5">
         <h2 className=" text-4xl font-bold capitalize mb-5 text-violet-600">
           find your Products

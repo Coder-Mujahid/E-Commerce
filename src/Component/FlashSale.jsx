@@ -86,7 +86,7 @@ function Items({ product }) {
 
 function Rating() {
   return (
-    <div className="rating">
+    <div className="rating z-10">
       <input
         type="radio"
         name="rating-2"

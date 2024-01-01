@@ -6,7 +6,8 @@ import support from '../../public/img/customer support .png'
 const AboutSection = () => {
   return (
     <>
-        <Card1
+       <div className=' pt-20'>
+       <Card1
         img={quality}
         title="Quality assurance"
         subtitle="Highest quality precision product"
@@ -35,6 +36,7 @@ const AboutSection = () => {
         title="Customer service"
         subtitle="24/7 online Customer service"
         ></Card1>
+       </div>
     </>
   )
 }
@@ -44,7 +46,7 @@ export default AboutSection;
 
 function Card1({img,title,subtitle}){
     return(
-        <div className=' md:grid grid-cols-3 gap-3 w-11/12 mx-auto border-[1px] border-slate-200 p-4 rounded-lg my-5 shadow-md shadow-slate-400'>
+        <div className=' md:grid grid-cols-3 gap-3 w-11/12 mx-auto border-[1px] border-slate-200 p-4 rounded-lg mb-5 shadow-md shadow-slate-400'>
         <aside className=' col-span-1 flex items-center justify-center mb-3'>
             <img className=' md:w-60 w-44' src={img} alt={img}/>
         </aside>

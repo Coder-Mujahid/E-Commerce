@@ -13,7 +13,7 @@ const ContactPage = () => {
 
   return (
     <motion.div
-      className="min-h-screen flex p-3 items-center justify-center bg-gray-100"
+      className="min-h-screen flex pt-16 items-center justify-center bg-gray-100"
       variants={containerVariants}
       initial="hidden"
       animate="visible"

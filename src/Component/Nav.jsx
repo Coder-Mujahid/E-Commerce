@@ -46,7 +46,7 @@ export default function Nav() {
     <>
       <Cart addToCartHandler={addToCartHandler} isCart={isCart} setIsCart={setIsCart}></Cart>
 
-      <div className=" w-full bg-sky-200 pb-3  border-b-[1px] border-slate-200">
+      <div className=" w-full z-20 bg-sky-200  fixed border-b-[1px] border-slate-200">
         <div className=" w-11/12 mx-auto flex h-auto ">
           <aside className=" w-16 p-1  ">
             <img src={logo} alt={logo} />
